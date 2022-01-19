@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css/style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HOME</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <div>hi</div>
+    <section class="header">     
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li  class="fa fa-home icon" ><a href="" > HOME </a></li>
+                    <li  class="fa fa-address-card icon" ><a href=""> ABOUT</a></li>
+                    <li  class="fa fa-handshake-o icon"><a href=""> COURSE</a></li>
+                    <li  class="fa fa-home icon"><a href=""> BLOG</a></li>
+                    <li  class="fa fa-home icon"><a href=""> CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1 >World's Biggest Online University</h1>
+            
+            <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br>Javascript and you are good to go.</p>
+            <a href="" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+    
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
