@@ -4,12 +4,12 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(90deg, #6190e8, #a7bfe8);
+    background: linear-gradient(90deg, #1d3768, #04132f);
   }
 .sub-header{
     height: 20vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/programming-g18d2f5b93_1920.png);
     background-position: center;
     background-size: cover;
     text-align: center;

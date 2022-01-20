@@ -108,7 +108,7 @@ nav .fa{
         top: 0;
         right: -200px;
         text-align: left;
-        z-index: 2;
+        z-index: 10;
         transition: 0.5s;
     }
     .nav-links ul{

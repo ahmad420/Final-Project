@@ -1,7 +1,6 @@
 .sub-header{
     height: 50vh;
     width: 100%;
-
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/brushes-g25e26e696_1920.jpg);
     background-position: center;
     background-size: cover;

@@ -18,7 +18,11 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding: 80px 0;
+}
+.courses h1 {
+    font-size: 40px;
+    margin: 10px;
 }
 .courses-col{
     flex-basis: 32%;
