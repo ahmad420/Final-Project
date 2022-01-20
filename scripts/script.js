@@ -217,7 +217,7 @@ submitBtn.addEventListener("submit",(e)=>{
 })*/
 
 ////////////////////////////////////////
-const init = function () {
+/*const init = function () {
     let username = document.getElementById("username").value;
     let tel = document.getElementById("tel").value;
     let email = document.getElementById("email").value;
@@ -254,6 +254,6 @@ inputs.forEach((input) => {
       buttonSend.disabled = true;
     }
   })
-})
+})*/
 
 //https://javascript.tutorialink.com/how-to-disable-submit-button-until-all-mandatory-fields-are-filled-using-html-and-vanilla-js/

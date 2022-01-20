@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/header-footer.css">
+    <link rel="stylesheet" href="../styles/about-us.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Learn about us</title>
 </head>
 <body>
+    <section class="sub-header">     
+        <nav>
+            <a class="nav-logo" href="index.html"><img src="../images/logo.svg"></a><span class="logo-text"> Logo</span>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li  class="fa fa-home icon" ><a href="../index.html" > HOME </a></li>
+                    <li  class="fa fa-address-card icon" ><a href=""> ABOUT</a></li>
+                    <li  class="fa fa-handshake-o icon"><a href=""> COURSE</a></li>
+                    <li  class="fa fa-home icon"><a href=""> BLOG</a></li>
+                    <li  class="fa fa-home icon"><a href="pages/contact.html"> CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <div class="header1">
+        <h1 class="header-div"><span id="we-share">We share</span>  <br> knowledge<br>
+             with the world.</h1>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h1>     
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis finibus nibh luctus mattis.</p>
+                <a href="" class="hero-btn red-btn">EXPOLER NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="../images/team.png">
+            </div>
+        </div>    
+    </section>
+
     
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+       
+<footer/>  
+<script src="../scripts/script.js"></script>
 </body>
 </html>
