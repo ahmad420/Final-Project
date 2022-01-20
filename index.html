@@ -12,7 +12,7 @@
 </head>
 <body>
     <section class="header">     
-        <nav>
+        <nav class="nav-bg">
             <a class="nav-logo" href="index.html"><img src="images/logo.svg"></a><span class="logo-text"> Logo</span>
             <div class="nav-links" id="navLinks">  
                 <i class="fa fa-close" onclick="hideMenu()"></i>
@@ -26,15 +26,19 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        
+        <video id="videoBg" poster="./images/poster.png" autoplay muted loop>
+            <source src="./images/bg.mp4" type="video/mp4"/>
+        </video>
         <div class="text-box">
             <h1 >World's Biggest Online University</h1>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla<br>Lorem ipsum nulla.</p>
             <a href="" class="hero-btn">About us</a>
         </div>
+     
     </section>
-    
+ 
+
     <section class="courses">
         <h1>Topics</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
