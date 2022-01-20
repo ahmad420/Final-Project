@@ -9,7 +9,7 @@
 }
 .nav-bg{
     max-height: 10vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(134, 144, 185, 0.7)) ,url(../images/poster.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(27, 27, 27, 0.7)) ,url(../images/poster.png);
 }
 
 #videoBg{

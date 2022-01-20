@@ -58,8 +58,8 @@
   }
   
   .sub-header {
-    height: 20vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(134, 144, 185, 0.7)) ,url(../images/loginbg.jpg);
+    height: 15vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(255, 255, 255, 0.7)) ,url(../images/loginbg.jpg);
 }
 
   .container {
