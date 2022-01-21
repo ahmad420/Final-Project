@@ -79,7 +79,7 @@ z-index: -1;
 @media (max-width:700px){
     
 .header{
-    height: 80vh;
+    height: 100vh;
 }
 
     .row{
