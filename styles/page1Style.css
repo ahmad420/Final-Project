@@ -1,6 +1,6 @@
 
 .header{
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -77,6 +77,11 @@ z-index: -1;
 
 
 @media (max-width:700px){
+    
+.header{
+    height: 60vh;
+}
+
     .row{
         flex-direction: column;
     }
