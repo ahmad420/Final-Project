@@ -54,13 +54,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    
   }
   
   .sub-header {
     height: 15vh;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(255, 255, 255, 0.7)) ,url(../images/loginbg.jpg);
-}
+    font-family: 'Poppins', sans-serif;
+
+  }
 
   .container {
     position: relative;
@@ -127,6 +129,9 @@
     z-index: 1;
     opacity: 0;
   }
+  .rm-text-dec{
+    text-decoration: none;
+    }
   
   /* MODAL */
   

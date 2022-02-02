@@ -1,0 +1,124 @@
+.sub-header {
+    height: 50vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(134, 144, 185, 0.7)) ,url(../images/books-g347d9054c_1920.jpg);
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;  
+}
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-right{
+    flex-basis: 32%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog-right h3{
+    background: #505050;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 2px;
+}
+.blog-right .subjects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+.blog-right .subjects:hover{
+    background: rgb(196, 196, 196);
+}
+.blog-right :first-child(1) :hover{
+    background: rgb(243, 142, 142);
+
+}
+
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    border: solid  0.2px;
+    margin: 10px 0;
+}
+.rm-text-dec{
+text-decoration: none;
+color: unset;
+}
+
+
+.cta{
+    margin: 100px auto;
+    width: 100%;
+    max-height: 10vh ;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/ol.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px; 
+    padding: 0; 
+}
+
+
+
+@media (max-width:700px){
+    .sub-header h1{
+        font-size: 24px;
+    }
+    .row{
+      flex-direction: column;  
+    }
+    .cta h1{
+        font-size: 20px;
+    }
+    .blog-right{
+        margin-top: 40px;
+    }
+} 
