@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/header-footer.css">
     <link rel="stylesheet" href="../styles/sign-in.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   
     <title>login</title>
@@ -23,12 +23,12 @@
             <div class="nav-links" id="navLinks">  
                 <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
-                    <li  class="fa fa-home icon" ><a href="../index.html" > HOME </a></li>
-                    <li  class="fa fa-address-card icon" ><a href="about-us.html"> ABOUT</a></li>
-                    <li  class="fa fa-handshake-o icon"><a href="courses.html"> COURSES</a></li>
-                    <li  class="fa fa-sign-in icon"><a href="./sign-in.html"> Login</a></li>
-                    <li  class="fa fa-home icon"><a href="./contact.html"> CONTACT</a></li>
-                </ul>
+                  <li  class="fa fa-home icon" ><a href="../index.html" > HOME </a></li>
+                  <li  class="fa fa-leanpub icon"><a href="courses.html"> COURSES</a></li>
+                  <li  class="fa fa-address-book icon"><a href="contact.html"> CONTACT</a></li>
+                  <li  class="fa fa-question-circle icon" ><a href="about-us.html"> ABOUT</a></li>
+                  <li  class="fa fa-sign-in icon"><a href="sign-in.html"> Log-in</a></li>
+              </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
@@ -42,11 +42,11 @@
               <h2 class="title">Login</h2>
               <div class="input-field">
                 <i class="fas fa-user"></i>
-                <input type="text" name="usuario" autocomplete="username" placeholder="Username" required="yes">
+                <input type="text" name="username" autocomplete="username" placeholder="Username" required="yes">
               </div>
               <div class="input-field">
                 <i class="fas fa-lock"></i>
-                <input type="password" name="contraseña" autocomplete="current-password" placeholder="Password" id="id_password" required="yes">
+                <input type="password"  type="hidden" name="password" autocomplete="current-password" placeholder="Password" id="id_password" required="yes">
                 <i class="far fa-eye" id="togglePassword" style="cursor: pointer;"></i>
               </div>
     
@@ -62,15 +62,15 @@
               <h2 class="title">Register</h2>
               <div class="input-field">
                 <i class="fas fa-user"></i>
-                <input type="text" name="usuario" autocomplete="username" placeholder="Username" required="yes">
+                <input type="text" name="username" autocomplete="username" placeholder="Username" required="yes">
               </div>
               <div class="input-field">
                 <i class="fas fa-envelope"></i>
-                <input type="email" name="correo" autocomplete="email" placeholder="Email" required="yes">
+                <input type="email" name="email" autocomplete="email" placeholder="Email" required="yes">
               </div>
               <div class="input-field">
                 <i class="fas fa-lock"></i>
-                <input type="password" name="contraseña" autocomplete="current-password" placeholder="Password" id="id_reg" required="yes">
+                <input type="password" name="password" autocomplete="current-password" placeholder="Password" id="id_reg" required="yes">
                 <i class="far fa-eye" id="toggleReg" style="cursor: pointer;"></i>
               </div>
     

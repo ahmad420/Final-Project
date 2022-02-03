@@ -8,6 +8,7 @@ nav{
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 .nav-logo img{
     max-width: 45px;

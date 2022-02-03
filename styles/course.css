@@ -1,5 +1,8 @@
+body{
+    height:100% ;
+}
 .sub-header {
-    height: 50vh;
+    height: 60vh;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(134, 144, 185, 0.7)) ,url(../images/books-g347d9054c_1920.jpg);
 }
 .row{
@@ -14,6 +17,11 @@
 }
 .blog-left{
     flex-basis: 65%;
+    height:fit-content ;
+    
+}
+iframe{
+    min-height: 70vh;
 }
 .blog-right{
     flex-basis: 32%;
@@ -109,6 +117,9 @@ color: unset;
 
 
 @media (max-width:700px){
+    .sub-header {
+        height: 10vh;
+    }
     .sub-header h1{
         font-size: 24px;
     }
@@ -117,6 +128,9 @@ color: unset;
     }
     .cta h1{
         font-size: 20px;
+    }
+    .blog-content iframe{
+    min-height: 40vh;
     }
     .blog-right{
         margin-top: 40px;
