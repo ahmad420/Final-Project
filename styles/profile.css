@@ -3,6 +3,15 @@ html,body {
     font-family: "Arial";
     margin: 0;
   }
+  .sub-header{
+    height: 15vh;
+    width: 100%;
+    background: linear-gradient(90deg, #1d3768, #04132f);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
   
   .container {
     padding: 0 !important;
@@ -236,6 +245,9 @@ h3{
     .left{
       margin-top: unset;
 
+    }
+    .stats{
+flex-direction: row;
     }
 } 
 

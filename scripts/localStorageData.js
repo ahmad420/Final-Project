@@ -12,6 +12,8 @@ submitBtn.addEventListener("click", (e) =>{
         location.reload()
         if(localStorage.name && localStorage.password ){
        window.location.href="../pages/profile.html";
+        }else{
+            window.alert("one feild or more is empty ,plaese try again ")
         }
     }) 
 
@@ -38,6 +40,8 @@ submitBtn.addEventListener("click", (e) =>{
             location.reload()
             if(localStorage.name && localStorage.password && localStorage.email&& localStorage.checkbox){
            window.location.href="../pages/profile.html";
+            }else{
+                window.alert("one feild or more is empty ,plaese try again ")
             }
         }) 
     
