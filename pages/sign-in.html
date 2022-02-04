@@ -42,15 +42,15 @@
               <h2 class="title">Login</h2>
               <div class="input-field">
                 <i class="fas fa-user"></i>
-                <input type="text" name="username" autocomplete="username" placeholder="Username" required="yes">
+                <input id="userName" type="text" name="username" autocomplete="username" placeholder="Username" required="yes">
               </div>
               <div class="input-field">
                 <i class="fas fa-lock"></i>
-                <input type="password"  type="hidden" name="password" autocomplete="current-password" placeholder="Password" id="id_password" required="yes">
+                <input  id="password" type="password"  type="hidden" name="password" autocomplete="current-password" placeholder="Password" id="id_password" required="yes">
                 <i class="far fa-eye" id="togglePassword" style="cursor: pointer;"></i>
               </div>
     
-              <input type="submit" value="Sign in" class="btn solid">
+              <input  id="submitBtn"  type="submit" value="Sign in" class="btn solid">
                 <p>forgot your password ?<a class="rm-text-dec" href="./forgot-password.html"><span> restore password</span></a></p>
               <div class="social-media">
                 <a class="icon-mode" onclick="toggleTheme('dark');"><i class="fas fa-moon"></i></a>
@@ -58,27 +58,27 @@
               </div>
               <p class="text-mode">Change theme</p>
             </form>
-            <form action="./profile.html" class="sign-up-form">
+            <form class="sign-up-form">
               <h2 class="title">Register</h2>
               <div class="input-field">
                 <i class="fas fa-user"></i>
-                <input type="text" name="username" autocomplete="username" placeholder="Username" required="yes">
+                <input id="userName2" type="text" name="username" autocomplete="username" placeholder="Username" required="yes">
               </div>
               <div class="input-field">
                 <i class="fas fa-envelope"></i>
-                <input type="email" name="email" autocomplete="email" placeholder="Email" required="yes">
+                <input id="email2" type="email" name="email" autocomplete="email" placeholder="Email" required="yes">
               </div>
               <div class="input-field">
                 <i class="fas fa-lock"></i>
-                <input type="password" name="password" autocomplete="current-password" placeholder="Password" id="id_reg" required="yes">
+                <input  id="password2"  type="password" name="password" autocomplete="current-password" placeholder="Password" id="id_reg" required="yes">
                 <i class="far fa-eye" id="toggleReg" style="cursor: pointer;"></i>
               </div>
     
               <label class="check">
-                <input type="checkbox" checked="checked">
+                <input  id="checkbox" type="checkbox" checked="checked">
                 <span class="checkmark">I accept the <a href="terms.html">terms and services</a></span>
               </label>
-              <input type="submit" value="Create account" class="btn solid">
+              <input id="submitBtn2"   type="submit" value="Create account" class="btn solid">
     
             </form>
           </div>
@@ -90,7 +90,7 @@
               <p>Create your account right now to follow people and like publications</p>
               <button class="btn transparent" id="sign-up-btn">Register</button>
             </div>
-            <img src="img/log.svg" class="image" alt="">
+            <img src="" class="image" alt="">
           </div>
     
           <div class="panel right-panel">
@@ -99,7 +99,7 @@
               <p>Login to see your notifications and post your favorite photos</p>
               <button class="btn transparent" id="sign-in-btn">Sign in</button>
             </div>
-            <img src="img/register.svg" class="image" alt="">
+            <img src="" class="image" alt="">
           </div>
         </div>
       </div>
@@ -118,6 +118,7 @@
 <footer/>  
       <script src="../scripts/sign-in-up.js"></script>
       <script src="../scripts/script.js"></script>
+      <script src="../scripts/localStorageData.js"></script>
 
     </body>
 </html>

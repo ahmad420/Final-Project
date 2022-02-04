@@ -40,3 +40,5 @@ toggleReg.addEventListener("click", function (e) {
   pass.setAttribute("type", type);
   this.classList.toggle("fa-eye-slash");
 });
+
+

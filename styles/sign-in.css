@@ -59,7 +59,7 @@
   
   .sub-header {
     height: 15vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(255, 255, 255, 0.7)) ,url(../images/loginbg.jpg);
+    background: linear-gradient(45deg, var(--bg-round-a), var(--bg-round-b));
     font-family: 'Poppins', sans-serif;
 
   }
@@ -519,8 +519,8 @@
   @media (max-width: 870px) {
     .sub-header {
       height: 10vh;
-      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(134, 144, 185, 0.7)) ,url(../images/loginbg.jpg);
-  }
+      background: linear-gradient(45deg, var(--bg-round-a), var(--bg-round-b));
+    }
   
     .container {
       min-height: 800px;
