@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/header-footer.css">
+    <link rel="stylesheet" href="../styles/thanks.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
 </head>
 <body>
-    <h1>THANKS BRO</h1>
+    <section class="sub-header">     
+        <nav>
+            <a class="nav-logo" href="../index.html"><img src="../images/logo.svg"></a><span class="logo-text"> Logo</span>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li  class="fa fa-home icon" ><a href="../index.html" > HOME </a></li>
+                    <li  class="fa fa-leanpub icon"><a href="courses.html"> COURSES</a></li>
+                    <li  class="fa fa-address-book icon"><a href="contact.html"> CONTACT</a></li>
+                    <li  class="fa fa-question-circle icon" ><a href="about-us.html"> ABOUT</a></li>
+                    <li  class="fa fa-sign-in icon"><a href="sign-in.html"> Log-in</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <div class="header1">
+        <h1 class="header-div"><span id="we-share">We share</span>  <br> knowledge<br>
+             with the world.</h1>
+        </div>
+    </section>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="thanks-wrap">
+                    <h2>Thanks!</h2>
+                    <br>
+                    <div class="checkmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.2 161.2">
+                            <circle class="path" fill="none" stroke="#fcc400" stroke-width="4" stroke-miterlimit="10" cx="80.6" cy="80.6" r="62.1"/>
+                            <path class="path" fill="none" stroke="#fcc400" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" d="M113 52.8l-38.9 55.6-25.9-22"/>
+                            <circle class="spin" fill="none" stroke="#555555" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="12.2175,12.2175" cx="80.6" cy="80.6" r="73.9"/>
+                        </svg>
+                    </div>
+                </div>
+                <br>
+                <p>Thanks a bunch for filling that out. It means a lot to us, just like you do!</p>
+                <p> We really appreciate you giving us a moment of your time today. Thanks for being you.</p>
+                <a href=""> mew</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+       
+<footer/>  
+<script src="../scripts/script.js"></script>
 </body>
 </html>

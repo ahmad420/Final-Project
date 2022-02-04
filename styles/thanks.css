@@ -1,0 +1,74 @@
+.sub-header{
+    height: 15vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/brushes-g25e26e696_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top:20px;
+    font-size: 50px;
+}
+.container{
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+min-height: 80vh;
+}
+
+thanks-wrap{
+	background: #FFFFFF;
+	padding: 30px;
+	margin: 0 auto 10px;
+	display: none;
+	max-width: 320px;
+}
+svg{
+    height: 200px;
+}
+.checkmark{
+	max-width: 300px;
+	margin: 0 auto;
+}
+.path{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 0;
+	animation: dash 2s ease-in-out;
+    stroke: rgb(36, 153, 65);
+}
+.spin{
+	animation: spin 2s;
+	transform-origin: 50% 50%;
+}
+h2{
+	animation: text 1s;
+    font-size: 35px;
+}
+@keyframes dash {
+	0%{
+		stroke-dashoffset: 1000;
+    }
+	100%{
+		stroke-dashoffset: 0;
+    }
+}
+@keyframes spin{
+	0%{
+		transform: rotate(0deg);
+    }
+
+	100%{
+		transform: rotate(360deg);
+    }
+}
+@keyframes text{
+	0%{
+		opacity: 0
+    }
+	100%{
+		opacity: 1
+    }
+}
