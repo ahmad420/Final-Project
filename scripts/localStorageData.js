@@ -39,7 +39,7 @@ submitBtn.addEventListener("click", (e) =>{
             localStorage.setItem("checkbox",checkbox)
             location.reload()
             if(localStorage.name && localStorage.password && localStorage.email&& localStorage.checkbox){
-           window.location.href="../pages/profile.html";
+           window.location.href="../pages/sign-in.html";
             }else{
                 window.alert("one feild or more is empty ,plaese try again ")
             }
