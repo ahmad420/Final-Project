@@ -44,4 +44,3 @@ submitBtn.addEventListener("click", (e) =>{
                 window.alert("one feild or more is empty ,plaese try again ")
             }
         }) 
-    

@@ -99,6 +99,17 @@ form.addEventListener("click", () => {
           colorize("#FE8C99", line, placeholder);
         }
       }
+    
+// const name = document.getElementById("username")
+// const email = document.getElementById("email")
+// const phone = document.getElementById("tel")
+
+//       if(e.target.type === "submit"){
+//         let validEmail = validateEmail(email.target.value);
+//         let validPhone = validatePhone(phone.target.value);
+//         console.log(validEmail ,validPhone);
+//       }
+
     });
   });
 });
@@ -164,6 +175,7 @@ btn.disabled = false
     btn.disabled = false
 
 }*/
+
 //Animating Character
 gsap.set("#eye", { transformOrigin: "center" });
 gsap.fromTo(
@@ -191,6 +203,7 @@ const tl3 = gsap.timeline({
 
 button.addEventListener("click", (e) => {
   e.preventDefault();
+
   tl3.to(".contact-right, .contact-left", {
     y: 30,
     opacity: 0,
@@ -206,6 +219,22 @@ button.addEventListener("click", (e) => {
     { rotation: -10, y: 2, ease: "elastic(3,0.3)", duration: 2, delay: 1 }
   );
 });
+
+
+// console.log(name.value);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*const form = document.getElementById("form1")
