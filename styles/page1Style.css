@@ -90,7 +90,7 @@
     border-radius: 10px;
     margin: 5px;
     text-align: left;
-    background: #fff3f3;
+    background: #acacac;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -103,6 +103,7 @@
     border-radius: 50%;
 }
 .testimonial-col p{
+    font-size: 16px;
     padding: 0;
 }
 .testimonial-col h3{
@@ -110,7 +111,7 @@
     text-align: left;
 }
 .testimonial-col .fa{
-    color: #f44336;
+    color: #f8d123;
 }
 
 .location{
@@ -128,8 +129,14 @@
         margin-left: 0px;
         margin-right: 15px;
     }
+   
 }
-
+@media(max-width:800px){
+.testimonial-col p{
+    font-size: 12px;
+    padding: 0;
+}
+}
 @media (max-width:700px){
     
 .header{

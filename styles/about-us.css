@@ -37,14 +37,14 @@ color: #f44336;
 
 .hero-btn.red-btn{
     border: 1px solid #000000;
-    background: transparent;
-    color: #a8a8a8;
-  
+    background: #a8325a;
+    color: #fff;
+    
 }
 .hero-btn.red-btn:hover{
     border: 1px solid #000000;
-    background: #a8325a;
-    color: #fff;
+    background: transparent;
+    color: #555555;
 }
 .hero-btn.red-btn::after{
     background: #f44336;
