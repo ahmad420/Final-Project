@@ -1,0 +1,33 @@
+.sub-header {
+    height: 60vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(134, 144, 185, 0.7)) ,url(../../images/math.jpg);
+}
+
+
+.cta{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../images/math1.jpg);
+}
+
+
+
+@media (max-width:700px){
+    .sub-header {
+        height: 10vh;
+    }
+    .sub-header h1{
+        font-size: 24px;
+    }
+    .row{
+      flex-direction: column;  
+    }
+    .cta h1{
+        font-size: 20px;
+    }
+    .blog-content iframe{
+    min-height: 40vh;
+    }
+    .blog-right{
+        margin-top: 40px;
+    }
+} 
