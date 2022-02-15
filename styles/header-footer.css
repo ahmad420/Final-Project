@@ -19,9 +19,12 @@ nav{
     margin: 5px ;
 }
 .logo-text{
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     margin-left: 20px;
+}
+#Logo-text2{
+color: #F37E56;
 }
 nav img{
     width: 135px;
@@ -85,12 +88,13 @@ nav .fa{
     background: #fff;
     position: relative;
     cursor: pointer;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .hero-btn:hover{
     border: 1px solid #959595;
-    background: #ffd000;
+    background: rgb(126, 171, 219);
+    color: #fff;
 }
 
 
