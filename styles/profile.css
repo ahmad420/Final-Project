@@ -149,12 +149,22 @@ html,body {
     cursor: pointer;
     margin: 0 15px;
   }
+  .social1 a {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 15px;
+  }
   
   .social i:nth-child(1)  { color: #4267b2; }
   .social i:nth-child(2)  { color: #1da1f2; }
   .social i:nth-child(3)  { color: #bd081c; }
   .social i:nth-child(4)  { color: #36465d; }
   
+  
+  .social1 a:nth-child(1)  { color: #4267b2; }
+  .social1 a:nth-child(2)  { color: #1da1f2; }
+  .social1 a:nth-child(3)  { color: #bd081c; }
+  .social1 a:nth-child(4)  { color: #2260b8; }
   .right {
       
     padding: 0 25px 0 25px !important;

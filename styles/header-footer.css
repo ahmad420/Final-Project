@@ -3,6 +3,10 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.rm-text-dec{
+    text-decoration: none;
+    }
+  
 nav{
     display: flex;
     padding: 2% 4%;
@@ -97,8 +101,24 @@ nav .fa{
     color: #fff;
 }
 
+.social a {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 15px;
+  }
+  
+  .social a:nth-child(1)  { color: #4267b2; }
+  .social a:nth-child(2)  { color: #1da1f2; }
+  .social a:nth-child(3)  { color: #bd081c; }
+  .social a:nth-child(4)  { color: #2260b8; }
+  
+  .copyRights{
 
-@media(max-width: 720px)
+      font-size: small;
+       opacity: 0.7;
+
+  }
+@media(max-width: 880px)
 {
    .nav-links ul li
     {
@@ -152,6 +172,7 @@ main{
         font-size: 24px;
     }
 } 
+
 
 .footer{
     width: 100%;
