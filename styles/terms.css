@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+.container{
+display: flex;
+text-align: start;
+padding: 30px;
+margin: 30px;
+}
