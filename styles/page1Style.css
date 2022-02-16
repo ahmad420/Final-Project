@@ -4,6 +4,7 @@ html{
 }
 .header{
     min-height: 80vh;
+    background: url(../images/poster.png);
     width: 100%;
     background-position: center;
     background-size: cover;
