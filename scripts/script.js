@@ -14,6 +14,7 @@ const containers = document.querySelectorAll(".input-container");
 const form = document.querySelector("form");
 
 const tl = gsap.timeline({ defaults: { duration: 1 } });
+let isTextValid=false, isEmailValid = false, isPhoneValid = false;
 
 //Line
 const start =
@@ -58,7 +59,6 @@ form.addEventListener("click", () => {
     const input = container.querySelector(".input");
     const line = container.querySelector(".elastic-line");
     const placeholder = container.querySelector(".placeholder");
-
     if (document.activeElement !== input) {
       if (!input.value) {
         gsap.to(placeholder, {
@@ -77,6 +77,7 @@ form.addEventListener("click", () => {
         let inputText = e.target.value;
         if (inputText.length > 2) {
           colorize("#6391E8", line, placeholder);
+          isTextValid=true;
         } else {
           colorize("#FE8C99", line, placeholder);
         }
@@ -86,6 +87,7 @@ form.addEventListener("click", () => {
         let valid = validateEmail(e.target.value);
         if (valid) {
           colorize("#6391E8", line, placeholder);
+          isEmailValid=true;
         } else {
           colorize("#FE8C99", line, placeholder);
         }
@@ -95,6 +97,7 @@ form.addEventListener("click", () => {
         let valid = validatePhone(e.target.value);
         if (valid) {
           colorize("#6391E8", line, placeholder);
+          isPhoneValid = true;
         } else {
           colorize("#FE8C99", line, placeholder);
         }
@@ -202,6 +205,8 @@ const tl3 = gsap.timeline({
 });
 
 button.addEventListener("click", (e) => {
+  console.log(isEmailValid&&isPhoneValid&&isTextValid)
+  if(isEmailValid&&isPhoneValid&&isTextValid){
   e.preventDefault();
 
   tl3.to(".contact-right, .contact-left", {
@@ -218,6 +223,10 @@ button.addEventListener("click", (e) => {
     { rotation: 0, y: 0 },
     { rotation: -10, y: 2, ease: "elastic(3,0.3)", duration: 2, delay: 1 }
   );
+  }else{
+    window.alert("One or more fields are empty,please try again ")
+  }
+
 });
 
 
